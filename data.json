@@ -1,0 +1,1075 @@
+{
+    "quesitos": [
+        {
+            "id": 1,
+            "nome": "Alegorias e Adere\u00c3\u00a7os",
+            "nota1": "10",
+            "nota2": "10",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Bora Brincar",
+            "jurados": {
+                "nota1": "Ewerton Visotto",
+                "nota2": "Gabriel Falc\u00c3\u00a3o",
+                "nota3": "Carla Soares",
+                "nota4": "T\u00c3\u00a1lio Rabelo",
+                "nota5": "Iara Quirino"
+            }
+        },
+        {
+            "id": 2,
+            "nome": "Enredo",
+            "nota1": "8",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Bora Brincar",
+            "jurados": {
+                "nota1": "Paulo Miranda",
+                "nota2": "Eduardo Maciel",
+                "nota3": "Viviane D'Sousa",
+                "nota4": "Jorge Fernando",
+                "nota5": "Douglas Palluzzo"
+            }
+        },
+        {
+            "id": 3,
+            "nome": "Fantasias",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Bora Brincar",
+            "jurados": {
+                "nota1": "Marco Dreyver",
+                "nota2": "Alex Castro",
+                "nota3": "Tamires Santana de Oliveira",
+                "nota4": "Ederilton Cassiano",
+                "nota5": "Beatriz Matos"
+            }
+        },
+        {
+            "id": 4,
+            "nome": "Samba-Enredo",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Bora Brincar",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 5,
+            "nome": "Alegorias e Adere\u00c3\u00a7os",
+            "nota1": "9.9",
+            "nota2": "10",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Rainha da Calunga",
+            "jurados": {
+                "nota1": "Ewerton Visotto",
+                "nota2": "Gabriel Falc\u00c3\u00a3o",
+                "nota3": "Carla Soares",
+                "nota4": "T\u00c3\u00a1lio Rabelo",
+                "nota5": "Iara Quirino"
+            }
+        },
+        {
+            "id": 6,
+            "nome": "Enredo",
+            "nota1": "10",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Rainha da Calunga",
+            "jurados": {
+                "nota1": "Paulo Miranda",
+                "nota2": "Eduardo Maciel",
+                "nota3": "Viviane D'Sousa",
+                "nota4": "Jorge Fernando",
+                "nota5": "Douglas Palluzzo"
+            }
+        },
+        {
+            "id": 7,
+            "nome": "Fantasias",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Rainha da Calunga",
+            "jurados": {
+                "nota1": "Marco Dreyver",
+                "nota2": "Alex Castro",
+                "nota3": "Tamires Santana de Oliveira",
+                "nota4": "Ederilton Cassiano",
+                "nota5": "Beatriz Matos"
+            }
+        },
+        {
+            "id": 8,
+            "nome": "Samba-Enredo",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Rainha da Calunga",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 9,
+            "nome": "Alegorias e Adere\u00c3\u00a7os",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Inocentes do Campo Novo",
+            "jurados": {
+                "nota1": "Ewerton Visotto",
+                "nota2": "Gabriel Falc\u00c3\u00a3o",
+                "nota3": "Carla Soares",
+                "nota4": "T\u00c3\u00a1lio Rabelo",
+                "nota5": "Iara Quirino"
+            }
+        },
+        {
+            "id": 10,
+            "nome": "Enredo",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Inocentes do Campo Novo",
+            "jurados": {
+                "nota1": "Paulo Miranda",
+                "nota2": "Eduardo Maciel",
+                "nota3": "Viviane D'Sousa",
+                "nota4": "Jorge Fernando",
+                "nota5": "Douglas Palluzzo"
+            }
+        },
+        {
+            "id": 11,
+            "nome": "Fantasias",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Inocentes do Campo Novo",
+            "jurados": {
+                "nota1": "Marco Dreyver",
+                "nota2": "Alex Castro",
+                "nota3": "Tamires Santana de Oliveira",
+                "nota4": "Ederilton Cassiano",
+                "nota5": "Beatriz Matos"
+            }
+        },
+        {
+            "id": 12,
+            "nome": "Samba-Enredo",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Inocentes do Campo Novo",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 13,
+            "nome": "Alegorias e Adere\u00c3\u00a7os",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Jurassic World",
+            "jurados": {
+                "nota1": "Ewerton Visotto",
+                "nota2": "Gabriel Falc\u00c3\u00a3o",
+                "nota3": "Carla Soares",
+                "nota4": "T\u00c3\u00a1lio Rabelo",
+                "nota5": "Iara Quirino"
+            }
+        },
+        {
+            "id": 14,
+            "nome": "Enredo",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Jurassic World",
+            "jurados": {
+                "nota1": "Paulo Miranda",
+                "nota2": "Eduardo Maciel",
+                "nota3": "Viviane D'Sousa",
+                "nota4": "Jorge Fernando",
+                "nota5": "Douglas Palluzzo"
+            }
+        },
+        {
+            "id": 15,
+            "nome": "Fantasias",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Jurassic World",
+            "jurados": {
+                "nota1": "Marco Dreyver",
+                "nota2": "Alex Castro",
+                "nota3": "Tamires Santana de Oliveira",
+                "nota4": "Ederilton Cassiano",
+                "nota5": "Beatriz Matos"
+            }
+        },
+        {
+            "id": 16,
+            "nome": "Samba-Enredo",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Jurassic World",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 17,
+            "nome": "Alegorias e Adere\u00c3\u00a7os",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Poseidon",
+            "jurados": {
+                "nota1": "Ewerton Visotto",
+                "nota2": "Gabriel Falc\u00c3\u00a3o",
+                "nota3": "Carla Soares",
+                "nota4": "T\u00c3\u00a1lio Rabelo",
+                "nota5": "Iara Quirino"
+            }
+        },
+        {
+            "id": 18,
+            "nome": "Enredo",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Poseidon",
+            "jurados": {
+                "nota1": "Paulo Miranda",
+                "nota2": "Eduardo Maciel",
+                "nota3": "Viviane D'Sousa",
+                "nota4": "Jorge Fernando",
+                "nota5": "Douglas Palluzzo"
+            }
+        },
+        {
+            "id": 19,
+            "nome": "Fantasias",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Poseidon",
+            "jurados": {
+                "nota1": "Marco Dreyver",
+                "nota2": "Alex Castro",
+                "nota3": "Tamires Santana de Oliveira",
+                "nota4": "Ederilton Cassiano",
+                "nota5": "Beatriz Matos"
+            }
+        },
+        {
+            "id": 20,
+            "nome": "Samba-Enredo",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Poseidon",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 21,
+            "nome": "Alegorias e Adere\u00c3\u00a7os",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Imp\u00c3\u00a9rio da Zona Sul",
+            "jurados": {
+                "nota1": "Ewerton Visotto",
+                "nota2": "Gabriel Falc\u00c3\u00a3o",
+                "nota3": "Carla Soares",
+                "nota4": "T\u00c3\u00a1lio Rabelo",
+                "nota5": "Iara Quirino"
+            }
+        },
+        {
+            "id": 22,
+            "nome": "Enredo",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Imp\u00c3\u00a9rio da Zona Sul",
+            "jurados": {
+                "nota1": "Paulo Miranda",
+                "nota2": "Eduardo Maciel",
+                "nota3": "Viviane D'Sousa",
+                "nota4": "Jorge Fernando",
+                "nota5": "Douglas Palluzzo"
+            }
+        },
+        {
+            "id": 23,
+            "nome": "Fantasias",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Imp\u00c3\u00a9rio da Zona Sul",
+            "jurados": {
+                "nota1": "Marco Dreyver",
+                "nota2": "Alex Castro",
+                "nota3": "Tamires Santana de Oliveira",
+                "nota4": "Ederilton Cassiano",
+                "nota5": "Beatriz Matos"
+            }
+        },
+        {
+            "id": 24,
+            "nome": "Samba-Enredo",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Imp\u00c3\u00a9rio da Zona Sul",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 25,
+            "nome": "Alegorias e Adere\u00c3\u00a7os",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Acad\u00c3\u00aamicos Drag\u00c3\u00b5es de Fogo",
+            "jurados": {
+                "nota1": "Ewerton Visotto",
+                "nota2": "Gabriel Falc\u00c3\u00a3o",
+                "nota3": "Carla Soares",
+                "nota4": "T\u00c3\u00a1lio Rabelo",
+                "nota5": "Iara Quirino"
+            }
+        },
+        {
+            "id": 26,
+            "nome": "Enredo",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Acad\u00c3\u00aamicos Drag\u00c3\u00b5es de Fogo",
+            "jurados": {
+                "nota1": "Paulo Miranda",
+                "nota2": "Eduardo Maciel",
+                "nota3": "Viviane D'Sousa",
+                "nota4": "Jorge Fernando",
+                "nota5": "Douglas Palluzzo"
+            }
+        },
+        {
+            "id": 27,
+            "nome": "Fantasias",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Acad\u00c3\u00aamicos Drag\u00c3\u00b5es de Fogo",
+            "jurados": {
+                "nota1": "Marco Dreyver",
+                "nota2": "Alex Castro",
+                "nota3": "Tamires Santana de Oliveira",
+                "nota4": "Ederilton Cassiano",
+                "nota5": "Beatriz Matos"
+            }
+        },
+        {
+            "id": 28,
+            "nome": "Samba-Enredo",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Acad\u00c3\u00aamicos Drag\u00c3\u00b5es de Fogo",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 29,
+            "nome": "Alegorias e Adere\u00c3\u00a7os",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Uni\u00c3\u00a3o da Alegria",
+            "jurados": {
+                "nota1": "Ewerton Visotto",
+                "nota2": "Gabriel Falc\u00c3\u00a3o",
+                "nota3": "Carla Soares",
+                "nota4": "T\u00c3\u00a1lio Rabelo",
+                "nota5": "Iara Quirino"
+            }
+        },
+        {
+            "id": 30,
+            "nome": "Enredo",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Uni\u00c3\u00a3o da Alegria",
+            "jurados": {
+                "nota1": "Paulo Miranda",
+                "nota2": "Eduardo Maciel",
+                "nota3": "Viviane D'Sousa",
+                "nota4": "Jorge Fernando",
+                "nota5": "Douglas Palluzzo"
+            }
+        },
+        {
+            "id": 31,
+            "nome": "Fantasias",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Uni\u00c3\u00a3o da Alegria",
+            "jurados": {
+                "nota1": "Marco Dreyver",
+                "nota2": "Alex Castro",
+                "nota3": "Tamires Santana de Oliveira",
+                "nota4": "Ederilton Cassiano",
+                "nota5": "Beatriz Matos"
+            }
+        },
+        {
+            "id": 32,
+            "nome": "Samba-Enredo",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Uni\u00c3\u00a3o da Alegria",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 33,
+            "nome": "Alegorias e Adere\u00c3\u00a7os",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Unidos de Yone",
+            "jurados": {
+                "nota1": "Ewerton Visotto",
+                "nota2": "Gabriel Falc\u00c3\u00a3o",
+                "nota3": "Carla Soares",
+                "nota4": "T\u00c3\u00a1lio Rabelo",
+                "nota5": "Iara Quirino"
+            }
+        },
+        {
+            "id": 34,
+            "nome": "Enredo",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Unidos de Yone",
+            "jurados": {
+                "nota1": "Paulo Miranda",
+                "nota2": "Eduardo Maciel",
+                "nota3": "Viviane D'Sousa",
+                "nota4": "Jorge Fernando",
+                "nota5": "Douglas Palluzzo"
+            }
+        },
+        {
+            "id": 35,
+            "nome": "Fantasias",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Unidos de Yone",
+            "jurados": {
+                "nota1": "Marco Dreyver",
+                "nota2": "Alex Castro",
+                "nota3": "Tamires Santana de Oliveira",
+                "nota4": "Ederilton Cassiano",
+                "nota5": "Beatriz Matos"
+            }
+        },
+        {
+            "id": 36,
+            "nome": "Samba-Enredo",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Unidos de Yone",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 37,
+            "nome": "Baianas",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Bora Brincar",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 38,
+            "nome": "Baianas",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Rainha da Calunga",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 39,
+            "nome": "Baianas",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Inocentes do Campo Novo",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 40,
+            "nome": "Baianas",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Jurassic World",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 41,
+            "nome": "Baianas",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Poseidon",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 42,
+            "nome": "Baianas",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Imp\u00c3\u00a9rio da Zona Sul",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 43,
+            "nome": "Baianas",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Acad\u00c3\u00aamicos Drag\u00c3\u00b5es de Fogo",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 44,
+            "nome": "Baianas",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Uni\u00c3\u00a3o da Alegria",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 45,
+            "nome": "Baianas",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Unidos de Yone",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 46,
+            "nome": "Comiss\u00c3\u00a3o de Frente",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Bora Brincar",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 47,
+            "nome": "Comiss\u00c3\u00a3o de Frente",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Rainha da Calunga",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 48,
+            "nome": "Comiss\u00c3\u00a3o de Frente",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Inocentes do Campo Novo",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 49,
+            "nome": "Comiss\u00c3\u00a3o de Frente",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Jurassic World",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 50,
+            "nome": "Comiss\u00c3\u00a3o de Frente",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Poseidon",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 51,
+            "nome": "Comiss\u00c3\u00a3o de Frente",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Imp\u00c3\u00a9rio da Zona Sul",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 52,
+            "nome": "Comiss\u00c3\u00a3o de Frente",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Acad\u00c3\u00aamicos Drag\u00c3\u00b5es de Fogo",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 53,
+            "nome": "Comiss\u00c3\u00a3o de Frente",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Uni\u00c3\u00a3o da Alegria",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 54,
+            "nome": "Comiss\u00c3\u00a3o de Frente",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Unidos de Yone",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 55,
+            "nome": "Mestre-Sala e Porta-Bandeira",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Bora Brincar",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 56,
+            "nome": "Mestre-Sala e Porta-Bandeira",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Rainha da Calunga",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 57,
+            "nome": "Mestre-Sala e Porta-Bandeira",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Inocentes do Campo Novo",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 58,
+            "nome": "Mestre-Sala e Porta-Bandeira",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Jurassic World",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 59,
+            "nome": "Mestre-Sala e Porta-Bandeira",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Poseidon",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 60,
+            "nome": "Mestre-Sala e Porta-Bandeira",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Imp\u00c3\u00a9rio da Zona Sul",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 61,
+            "nome": "Mestre-Sala e Porta-Bandeira",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Acad\u00c3\u00aamicos Drag\u00c3\u00b5es de Fogo",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 62,
+            "nome": "Mestre-Sala e Porta-Bandeira",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Uni\u00c3\u00a3o da Alegria",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        },
+        {
+            "id": 63,
+            "nome": "Mestre-Sala e Porta-Bandeira",
+            "nota1": "0",
+            "nota2": "0",
+            "nota3": "0",
+            "nota4": "0",
+            "nota5": "0",
+            "escola": "Unidos de Yone",
+            "jurados": {
+                "nota1": "Mestre Lipo",
+                "nota2": "Wellington Matheus",
+                "nota3": "Dyego Gabriel",
+                "nota4": "Eduardo Chagas",
+                "nota5": "J\u00c3\u00balio Sinott"
+            }
+        }
+    ]
+}

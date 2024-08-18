@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Quesitos</title>
+    <!-- Adicionando o Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <script>
+        // Função para corrigir caracteres incorretos
+        function replaceIncorrectText() {
+            // Mapeamento de caracteres incorretos para corretos
+            const replacements = {
+                'AcadÃªmicos': 'Acadêmicos',
+                'DragÃµes': 'Dragões',
+                 'ImpÃ©rio' : 'Império',
+                 'UniÃ£o': 'União',
+                 'AdereÃ§os': 'Adereços',
+                 'ComissÃ£o': 'Comissão',
+                // Adicione mais substituições conforme necessário
+            };
+
+            // Seleciona todos os elementos que podem conter o texto
+            const elements = document.querySelectorAll('body *');
+
+            elements.forEach(element => {
+                // Verifica se o elemento possui texto
+                if (element.hasChildNodes()) {
+                    element.childNodes.forEach(child => {
+                        if (child.nodeType === Node.TEXT_NODE) {
+                            let text = child.nodeValue;
+                            Object.keys(replacements).forEach(incorrect => {
+                                text = text.replace(new RegExp(incorrect, 'g'), replacements[incorrect]);
+                            });
+                            child.nodeValue = text;
+                        }
+                    });
+                }
+            });
+        }
+
+        // Execute a função quando o DOM estiver carregado
+        document.addEventListener('DOMContentLoaded', replaceIncorrectText);
+    </script>
+    
+    
+    <style>
+        .form-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: #f8f9fa;
+            padding: 10px; /* Reduzindo o padding */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+        .form-container h1 {
+            margin-bottom: 10px; /* Reduzindo o margin */
+            font-size: 20px; /* Diminuindo o tamanho da fonte */
+            color: #333;
+        }
+        .form-row {
+            margin-bottom: 5px; /* Reduzindo o espaço entre os campos */
+        }
+        .form-group {
+            margin-bottom: 0; /* Removendo o margin-bottom dos grupos de formulário */
+        }
+        .form-control {
+            font-size: 14px; /* Diminuindo o tamanho da fonte dos campos */
+            height: calc(1.5em + .75rem + 2px); /* Ajustando a altura dos campos */
+        }
+        .btn {
+            font-size: 14px; /* Diminuindo o tamanho da fonte do botão */
+            padding: 5px 10px; /* Ajustando o padding do botão */
+        }
+        .content {
+            margin-top: 100px; /* Ajuste conforme necessário */
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 6px; /* Reduzindo o padding das células da tabela */
+            text-align: center;
+            font-size: 14px; /* Diminuindo o tamanho da fonte da tabela */
+        }
+        table th {
+            background-color: #f2f2f2;
+        }
+        .scrollable-content {
+            max-height: 600px; /* Ajuste conforme necessário */
+            overflow-y: auto; /* Adiciona a barra de rolagem vertical */
+        }
+        .scrollable-content2 {
+            max-height: 170px; /* Ajuste conforme necessário */
+            overflow-y: auto; /* Adiciona a barra de rolagem vertical */
+        }
+        .nota-10, .nota-20, .nota-30, .nota-40, .nota-5 {
+            font-weight: bold;
+            color: green;
+            font-size: 1.2em; /* Tamanho maior */
+        }
+
+/* CSS para estilizar as notas */
+.nota-verde {
+    color: green;
+    font-weight: bold;
+}
+
+.nota-vermelha {
+    color: red;
+    font-weight: bold;
+}
+
+.nota-outros {
+    font-weight: normal;
+}
+
+        
+        .nota-20 {
+            color: darkgreen;
+        }
+        .nota-30 {
+            color: #006400;
+        }
+        .nota-40 {
+            color: #004d00;
+        }
+        .nota-5 {
+            color: red; /* Cor diferente para nota 5 */
+        }
+        .nota-outros {
+            font-weight: bold;
+            font-size: 1.2em; /* Tamanho maior */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="row">
+                <!-- Coluna 1: Tabela de Soma Geral -->
+                <div class="col-md-9">
+        
+            <center><h1>Apuração</h1></center>
+            <form action="{{ url_for('index') }}" method="post">
+                <input type="hidden" name="id" value="{{ form_dado.id if form_dado.id else '' }}">
+                <div class="form-row">
+                    <div class="form-group col-md-2">
+                        <label for="nome">Quesito:</label>
+                        <input type="text" id="nome" name="nome" class="form-control form-control-sm" value="{{ form_dado.nome }}" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="escola">Escola:</label>
+                        <input type="text" id="escola" name="escola" class="form-control form-control-sm" value="{{ form_dado.escola }}" required>
+                    </div>
+                    <div class="form-group col-md-1">
+                        <label for="nota1">Nota 1:</label>
+                        <input type="number" id="nota1" name="nota1" class="form-control form-control-sm" value="{{ form_dado.nota1 }}" step="0.01" required>
+                    </div>
+                    <div class="form-group col-md-1">
+                        <label for="nota2">Nota 2:</label>
+                        <input type="number" id="nota2" name="nota2" class="form-control form-control-sm" value="{{ form_dado.nota2 }}" step="0.01" required>
+                    </div>
+                    <div class="form-group col-md-1">
+                        <label for="nota3">Nota 3:</label>
+                        <input type="number" id="nota3" name="nota3" class="form-control form-control-sm" value="{{ form_dado.nota3 }}" step="0.01" required>
+                    </div>
+                    <div class="form-group col-md-1">
+                        <label for="nota4">Nota 4:</label>
+                        <input type="number" id="nota4" name="nota4" class="form-control form-control-sm" value="{{ form_dado.nota4 }}" step="0.01" required>
+                    </div>
+                    <div class="form-group col-md-1">
+                        <label for="nota5">Nota 5:</label>
+                        <input type="number" id="nota5" name="nota5" class="form-control form-control-sm" value="{{ form_dado.nota5 }}" step="0.01" required>
+                    </div>
+                    
+                    <div class="form-group col-md-2 d-flex align-items-end">
+                        <center><button type="submit" class="btn btn-primary btn-block">Salvar</button></center>
+                    </div>
+                </div>
+            </form>
+
+            </div>
+            <div class="col-md-3 scrollable-content2" >
+                <div class="small-list">
+                    <h5>Alegorias e Adereços</h5>
+                    <ol>
+                        <li>1° Ewerton Visotto</li>
+                        <li>2° Gabriel Falcão</li>
+                        <li>3° Carla Soares</li>
+                        <li>4° Túlio Rabelo</li>
+                        <li>5° Iara Quirino</li>
+                    </ol>
+                
+                    <h5>Enredo</h5>
+                    <ol>
+                        <li>1° Paulo Miranda</li>
+                        <li>2° Eduardo Maciel</li>
+                        <li>3° Viviane D'Sousa</li>
+                        <li>4° Jorge Fernando</li>
+                        <li>5° Douglas Palluzzo</li>
+                    </ol>
+                
+                    <h5>Fantasias</h5>
+                    <ol>
+                        <li>1° Marco Dreyver</li>
+                        <li>2° Alex Castro</li>
+                        <li>3° Tamires Santana de Oliveira</li>
+                        <li>4° Ederilton Cassiano</li>
+                        <li>5° Beatriz Matos</li>
+                    </ol>
+                
+                    <h5>Samba-Enredo</h5>
+                    <ol>
+                        <li>1° Mestre Lipo</li>
+                        <li>2° Wellington Matheus</li>
+                        <li>3° Dyego Gabriel</li>
+                        <li>4° Eduardo Chagas</li>
+                        <li>5° Júlio Sinott</li>
+                    </ol>
+                
+                    <h5>Baianas</h5>
+                    <ol>
+                        <li>1° Gabriella de Jesus Moreira</li>
+                        <li>2° Silvana Aleixo</li>
+                        <li>3° Rafaela Kohler</li>
+                        <li>4° Sylvia Andrade</li>
+                        <li>5° Pâmela dos Santos</li>
+                    </ol>
+                
+                    <h5>Comissão de Frente</h5>
+                    <ol>
+                        <li>1° Andressa Viana</li>
+                        <li>2° Ghislaine Cavalcanti</li>
+                        <li>3° Daniela Patrícia Freitas</li>
+                        <li>4° Alexandre Ferreira</li>
+                        <li>5° Elizabeth Bejani</li>
+                    </ol>
+                
+                    <h5>Mestre-Sala e Porta-Bandeira</h5>
+                    <ol>
+                        <li>1° Walber Negreiro</li>
+                        <li>2° Amanda Ribeiro</li>
+                        <li>3° Vinícius Costa</li>
+                        <li>4° Denadir Garcia</li>
+                        <li>5° Vera Aragão</li>
+                    </ol>
+                </div>
+                
+            </div>    
+        
+        </div>
+        <!-- Lista de Categorias e Nomes -->
+
+        <div class="row">
+            <!-- Coluna 1: Tabela de Soma Geral -->
+            <div class="col-md-3">
+                <h2>Soma Geral</h2>
+                <table class="table table-striped table-sm" id="soma-geral-table">
+                    <thead>
+                        <tr>
+                            <th>Ordem</th>
+                            <th>Escola</th>
+                            <th>Soma Geral</th>
+                        </tr>
+                    </thead>
+                    <tbody id="soma-geral-body">
+                        {% for escola, soma in soma_geral.items() %}
+                            <tr>
+                                <td>{{ escola }}</td>
+                                <td><h5>{{ soma.total }}</h5></td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        var tbody = document.getElementById('soma-geral-body');
+                        var rows = Array.from(tbody.getElementsByTagName('tr'));
+                        
+                        // Ordena as linhas pela segunda célula (Soma Geral), em ordem decrescente
+                        rows.sort(function(a, b) {
+                            var aTotal = parseFloat(a.cells[1].textContent);
+                            var bTotal = parseFloat(b.cells[1].textContent);
+                            return bTotal - aTotal; // Ordena de maior para menor
+                        });
+            
+                        // Remove as linhas existentes
+                        tbody.innerHTML = '';
+            
+                        // Adiciona as linhas ordenadas de volta ao tbody
+                        rows.forEach(function(row, index) {
+                            // Cria uma nova célula para a ordem
+                            var orderCell = document.createElement('td');
+                            orderCell.textContent = index + 1; // Define o texto da nova célula com o número da ordem
+                            orderCell.classList.add('order-cell');
+                            
+                            // Insere a nova célula no início da linha
+                            row.insertBefore(orderCell, row.firstChild);
+            
+                            // Adiciona a linha ao tbody
+                            tbody.appendChild(row);
+                        });
+                    });
+                </script>
+            </div>
+
+            <!-- Coluna 2: Outras Tabelas com barra de rolagem -->
+            <div class="col-md-9 scrollable-content">
+                {% for nome, rows in grupos.items() %}
+                    <h2>{{ nome }}</h2>
+                    <table class="table table-striped table-sm">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Escola</th>
+                                <th>Nota 1 </th>
+                                <th>Nota 2</th>
+                                <th>Nota 3</th>
+                                <th>Nota 4</th>
+                                <th>Nota 5</th>
+                                <th>Total</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for row in rows %}
+                            <tr>
+                                <td>{{ row[0] }}</td>
+                                <td>{{ row[7] }}</td>
+                                <td>{{ row[2] }}</td>
+                                <td>{{ row[3] }}</td>
+                                <td>{{ row[4] }}</td>
+                                <td>{{ row[5] }}</td>
+                                <td>{{ row[6] }}</td>
+                                <td><h4>{{ row[8] }} </h4></td> 
+                                <td>
+                                    <a href="{{ url_for('edit', id=row[0]) }}" class="btn btn-sm btn-warning">Editar</a>
+                                    <a href="{{ url_for('delete', id=row[0]) }}" class="btn btn-sm btn-danger">Excluir</a>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                {% endfor %}
+            </div>
+        
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    // Seleciona todas as tabelas dentro da div com a classe 'scrollable-content'
+                    const tables = document.querySelectorAll('.scrollable-content table');
+                    
+                    tables.forEach(table => {
+                        // Índices das colunas com notas (Nota 1 = 2, Nota 2 = 3, Nota 3 = 4, etc.)
+                        const columnIndices = [2, 3, 4, 5, 6, 7, 8]; 
+        
+                        columnIndices.forEach(colIndex => {
+                            const cells = Array.from(table.querySelectorAll(`tbody td:nth-child(${colIndex})`));
+                            const values = cells.map(cell => {
+                                const text = cell.textContent.trim();
+                                const num = parseFloat(text);
+                                return isNaN(num) ? -Infinity : num;
+                            });
+        
+                            // Excluir zeros da lista de valores para determinar a menor nota
+                            const nonZeroValues = values.filter(value => value !== 0);
+                            const maxNota = Math.max(...values);
+                            const minNota = nonZeroValues.length > 0 ? Math.min(...nonZeroValues) : -Infinity;
+        
+                            // Aplica as classes CSS
+                            cells.forEach(cell => {
+                                const nota = parseFloat(cell.textContent.trim());
+                                if (nota === maxNota) {
+                                    cell.classList.add('nota-verde');
+                                } else if (nota === minNota) {
+                                    cell.classList.add('nota-vermelha');
+                                } else {
+                                    cell.classList.add('nota-outros');
+                                }
+                            });
+                        });
+                    });
+                });
+            </script>
+        </div>
+    </div>
+
+    <!-- Adicionando o Bootstrap JS e dependências -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const table = document.querySelector('#soma-geral-table');
+            const cells = Array.from(table.querySelectorAll('tbody td h5'));
+
+            // Extrai os valores dos totais
+            const values = cells.map(cell => parseFloat(cell.textContent.trim()));
+
+            // Determina o máximo e o mínimo valores
+            const maxNota = Math.max(...values);
+            const minNota = Math.min(...values);
+
+            // Aplica as classes CSS
+            cells.forEach(cell => {
+                const nota = parseFloat(cell.textContent.trim());
+                const row = cell.parentElement.parentElement; // Obtém a linha da célula
+                if (nota === maxNota) {
+                    row.classList.add('nota-verde');
+                } else if (nota === minNota) {
+                    row.classList.add('nota-vermelha');
+                } else {
+                    row.classList.add('nota-outros');
+                }
+            });
+        });
+    </script>
+
+
+
+
+
+</body>
+</html>
