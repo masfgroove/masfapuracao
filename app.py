@@ -20,6 +20,9 @@ def carregar_dados():
         flash(f"Erro ao carregar dados do arquivo JSON: {str(e)}")
         return {'quesitos': [], 'jurados': []}
 
+
+
+
 def salvar_dados(dados):
     try:
         with open(JSON_FILE_PATH, 'w') as file:
@@ -56,6 +59,7 @@ def obter_dados_quesitos():
 def obter_dados_jurados():
     dados = carregar_dados()
     return dados.get('jurados', [])
+
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
